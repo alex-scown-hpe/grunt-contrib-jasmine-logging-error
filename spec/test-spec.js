@@ -1,10 +1,10 @@
-describe('A spec with no expectations', function() {
+describe('grunt-contrib-jasmine', function() {
 
-    it('should return 1', function() {
+    it('should not crash on this spec', function() {
         var a = code();
     });
 
-    it('should never reach this spec due to the error', function() {
+    it('will never reach this spec due to the error', function() {
         expect(code()).toBe(1);
     });
 
